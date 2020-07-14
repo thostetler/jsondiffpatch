@@ -271,7 +271,6 @@ function outputExternal(names) {
     }), {}),
     paths: names.reduce((accum, name) => ({
       ...accum,
-      [name]: './empty',
     }), {}),
   };
 }
